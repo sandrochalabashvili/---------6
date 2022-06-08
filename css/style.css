@@ -210,4 +210,56 @@ nav label {
   color: rgb(104, 101, 101);
 }
 
+.title-blog {
+  width: 1200px;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 7%;
+  text-align: center;
+}
+
+.img-footer {
+  width: 1200px;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-footer .first-child {
+  width: 30%;
+}
+.img-footer .first-child h2 {
+  color: black;
+  text-align: center;
+}
+.img-footer .first-child p {
+  color: rgb(143, 140, 140);
+  text-align: center;
+}
+.img-footer .sec-child {
+  padding-left: 25px;
+  width: 30%;
+}
+.img-footer .sec-child h2 {
+  color: black;
+  text-align: center;
+}
+.img-footer .sec-child p {
+  color: rgb(143, 140, 140);
+  text-align: center;
+}
+.img-footer .third-child {
+  margin-left: 50px;
+  width: 30%;
+}
+.img-footer .third-child h2 {
+  color: black;
+  text-align: center;
+}
+.img-footer .third-child p {
+  color: rgb(143, 140, 140);
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
