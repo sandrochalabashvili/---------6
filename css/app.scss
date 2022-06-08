@@ -113,7 +113,7 @@ nav{
 }
 
                               // მეორე სექცია
-.mybox{
+.nav1{
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
@@ -152,3 +152,66 @@ nav{
         }
     }
 }
+
+// სურათების სექცია 3
+.content-images {
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    .second {
+        width: 100%;
+        padding-bottom: 25px;
+        padding-left: 25px;
+      }
+      .third {
+        width: 100%;
+        padding-left: 25px;
+      }
+  }
+  .bottom-photos {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .small-pic {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    .fourth {
+        width: 90%;
+        height: 100%;
+      }
+  }
+  .last-pic {
+    display: flex;
+    margin-top: 25px;
+    .smallest-pic img {
+        width: 90%;
+        height: 100%;
+        margin-left: 25px;
+      }
+  }
+//   button ღილაკი
+.button{
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    .a-button{
+        font-weight: 900;
+        color: black;
+    }
+    :hover {
+        color: rgb(104, 101, 101);
+      }
+  }
