@@ -366,5 +366,30 @@ nav label {
     font-size: 14px;
   }
 }
+@media (max-width: 646px) {
+  .navbar {
+    display: none;
+  }
+
+  nav .logo {
+    position: relative;
+  }
+
+  .row {
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .burger {
+    display: block;
+    height: fit-content;
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    border: 0;
+    background-color: gray;
+    color: beige;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
